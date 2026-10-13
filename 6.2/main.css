@@ -1,0 +1,28 @@
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blue{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.black{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
+.red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.green{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
