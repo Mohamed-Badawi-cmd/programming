@@ -1,0 +1,176 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    min-width: 100vh;
+    width: 100%;
+    flex-direction: column;
+    flex: 1;
+}
+
+.b1{
+    display: flex;
+    background-color: red;
+    color: white;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    width: 100%;
+    min-width: 100vh;
+}
+
+.b2{
+    display: flex;
+    background-color: yellow;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    flex:1;
+    width: 100%;
+    min-width: 100vh;
+}
+
+.b3{
+    display: flex;
+    background-color: orange;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    width: 100%;
+    min-width: 100vh;
+}
+
+.b4{
+    display: flex;
+   background-color: green;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+   flex: 1;
+   width: 100%;
+   min-width: 100vh;
+}
+
+h1{
+    padding-left: 5px;
+}
+
+p{
+    padding-left: 5px;
+}
+
+@media (min-width: 768px){
+    body{
+        display: flex;
+    margin: 0;
+    padding: 0;
+    min-width: 768px;
+    width: 100%;
+    flex-direction: column;
+    flex: 1;
+    }
+
+    .b1{
+    display: flex;
+    background-color: red;
+    color: white;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    width: 100%;
+    min-width: 768px;
+    justify-content: center;
+    align-items: center;
+}
+
+.b2{
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    flex:1;
+    width: 100%;
+    min-width: 768px;
+}
+
+.b3{
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    width: 100%;
+    min-width: 768px;
+}
+
+.b4{
+    display: flex;
+   background-color: pink;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+   flex: 1;
+   width: 100%;
+   min-width: 768px;
+}
+
+@media (min-width: 1280px){
+    body{
+        display: flex;
+    margin: 0;
+    padding: 0;
+    min-width: 1280px;
+    width: 100%;
+    flex-direction: column;
+    flex: 1;
+    }
+
+    .b1{
+    display: flex;
+    background-color: red;
+    color: white;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    width: 100%;
+    min-width: 1280px;
+    justify-content: center;
+    align-items: center;
+}
+
+.b2{
+    display: flex;
+    background-color: darkcyan;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    flex:1;
+    width: 100%;
+    min-width: 1280px;
+}
+
+.b3{
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    width: 100%;
+    min-width: 1280px;
+}
+
+.b4{
+    display: flex;
+   background-color: mediumaquamarine;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+   flex: 1;
+   width: 100%;
+   min-width: 1280px;}
+}
